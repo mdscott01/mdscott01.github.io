@@ -1,0 +1,60 @@
+/**Logo in top left**/
+#logo {
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+/**navigation bar**/
+nav {
+    background-color: grey;
+    list-style-type:none;
+}
+/**this edits the li items that are in ol and in nav and puts them on one line**/
+nav ol li {
+    display:inline-block;
+    color:white;
+    margin-left:100px;
+    background-color:rgb(175, 132, 216)   
+}
+
+
+/**when hovering over it will change color**/
+nav a:hover{
+    background-color: greenyellow;
+    
+}
+/**this aligns my h1 header to be in the center of the page**/
+h1{
+    margin-left: 300px;
+}
+
+/**this edits the color of the background for the header**/
+ header{
+     background-color: grey;
+     
+ }
+/**this edits the background color of the footer and the color of the text**/
+ footer{
+     background-color:black;
+     color: white;
+     
+ }
+
+ /**this aligns the input and labels on the rate page to the right and leaves some space on the right**/
+ .container {
+     text-align: right;
+     padding-right:50px
+ }
+/**this aligns the contact us and everything in that div to the left of the page as well as changes the background color**/
+ #row2{
+     background-color:aquamarine;
+     color: black;
+ }
+/**this aligns the text on my info page to the right and places a 1px padding around the text using .right class**/
+ .right{
+     text-align: right;
+     border: 2px solid black;
+ }
+
